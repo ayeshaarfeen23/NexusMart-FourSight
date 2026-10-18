@@ -1,0 +1,7 @@
+delivery_bucket,lines,return_rate_pct,late_reason_return_rate_pct
+0-3 days,114820,4.83,0.187
+4-5 days,81747,4.85,0.197
+6-7 days,36265,5.67,0.245
+8-10 days,18883,6.97,0.291
+11+ days,6350,6.66,0.268
+Not delivered / unknown,56844,5.09,0.189

@@ -1,0 +1,96 @@
+# NexusMart datathon – reproducible environment
+#   docker compose up -d --build       (first run takes a few minutes)
+#   Airflow UI : http://localhost:8080  (admin / admin)
+#   Warehouse  : localhost:5433, db nexusmart_dw, user nexus / nexus  (Power BI connects here)
+x-airflow-common: &airflow-common
+  build: .
+  image: nexusmart-airflow:latest
+  env_file: .env
+  environment:
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow-db:5432/airflow
+    AIRFLOW__CORE__DAGS_FOLDER: /opt/nexusmart/dags
+    AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "false"
+    AIRFLOW__WEBSERVER__SECRET_KEY: nexusmart-datathon
+    NEXUS_PROJECT_DIR: /opt/nexusmart
+    NEXUS_RAW_DIR: /opt/nexusmart/data/raw
+    NEXUS_WORK_DIR: /opt/nexusmart/data/work
+    NEXUS_SQL_DIR: /opt/nexusmart/sql
+    NEXUS_REPORT_DIR: /opt/nexusmart/reports
+    NEXUS_DB_HOST: warehouse
+    NEXUS_DB_PORT: "5432"
+    NEXUS_DB_NAME: ${NEXUS_DB_NAME:-nexusmart_dw}
+    NEXUS_DB_USER: ${NEXUS_DB_USER:-nexus}
+    NEXUS_DB_PASSWORD: ${NEXUS_DB_PASSWORD:-nexus}
+    PYTHONPATH: /opt/nexusmart
+  user: "${AIRFLOW_UID:-50000}:0"
+  volumes:
+    - ./:/opt/nexusmart
+  depends_on:
+    airflow-db:
+      condition: service_healthy
+    warehouse:
+      condition: service_healthy
+
+services:
+  warehouse:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: ${NEXUS_DB_NAME:-nexusmart_dw}
+      POSTGRES_USER: ${NEXUS_DB_USER:-nexus}
+      POSTGRES_PASSWORD: ${NEXUS_DB_PASSWORD:-nexus}
+    ports:
+      - "5433:5432"
+    volumes:
+      - warehouse-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${NEXUS_DB_USER:-nexus} -d ${NEXUS_DB_NAME:-nexusmart_dw}"]
+      interval: 5s
+      retries: 20
+
+  airflow-db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: airflow
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+    volumes:
+      - airflow-db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U airflow"]
+      interval: 5s
+      retries: 20
+
+  airflow-init:
+    <<: *airflow-common
+    entrypoint: /bin/bash
+    command:
+      - -c
+      - |
+        airflow db migrate &&
+        airflow users create --username admin --password admin --firstname Data --lastname Team \
+          --role Admin --email admin@nexusmart.local || true
+    restart: "no"
+
+  airflow-webserver:
+    <<: *airflow-common
+    command: webserver
+    ports:
+      - "8081:8080"
+    restart: unless-stopped
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+
+  airflow-scheduler:
+    <<: *airflow-common
+    command: scheduler
+    restart: unless-stopped
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+
+volumes:
+  warehouse-data:
+  airflow-db-data:

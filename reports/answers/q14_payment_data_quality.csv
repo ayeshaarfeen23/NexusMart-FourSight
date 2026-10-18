@@ -1,0 +1,14 @@
+payment_method,payment_status,payments,missing_date,missing_amount
+Bank Transfer,Paid,10636,383,12
+Bank Transfer,Refunded,438,13,1
+COD,Paid,72182,2657,66
+COD,Cancelled,11794,408,13
+COD,Pending,691,25,0
+Card,Paid,27260,1008,22
+Card,Refunded,1052,38,2
+Card,Cancelled,197,11,0
+Card,Pending,6,0,0
+EasyPaisa,Paid,18820,665,17
+EasyPaisa,Refunded,771,13,0
+JazzCash,Paid,20106,748,28
+JazzCash,Refunded,862,25,1

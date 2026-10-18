@@ -1,0 +1,65 @@
+product_id,product_name,category,nmv,delivered,returned,return_rate_pct,seller_id,seller_name,seller_tier,main_seller_share_pct
+P02877,Zeta Hoodie E731,Fashion,678325,132,26,19.7,S0203,Rehman Traders 67,Gold,100.0
+P02304,NexusChoice Polo Shirt T257,Fashion,1264677,199,38,19.1,S0308,Lahore Imports 66,Gold,100.0
+P02665,Orion Abaya K617,Fashion,565570,133,24,18.05,S0308,Lahore Imports 66,Gold,100.0
+P01930,NexusChoice Polo Shirt B239,Fashion,581797,96,17,17.71,S0175,Crown Enterprises 11,Silver,100.0
+P02768,Zeta Lawn Suit 3pc R842,Fashion,454681,130,23,17.69,S0175,Crown Enterprises 11,Silver,100.0
+P02931,Zeta Lawn Suit 3pc F513,Fashion,906111,210,37,17.62,S0308,Lahore Imports 66,Gold,100.0
+P02515,Orion Abaya Y106,Fashion,2830462,390,66,16.92,S0109,Pak Hub 77,Silver,100.0
+P01391,Generic Denim Jeans A188,Fashion,683361,311,52,16.72,S0308,Lahore Imports 66,Gold,100.0
+P01410,FashPro Lawn Suit 3pc A190,Fashion,1994702,384,64,16.67,S0376,Habib Store 43,Silver,100.0
+P01747,Zeta Denim Jeans R975,Fashion,518136,102,17,16.67,S0175,Crown Enterprises 11,Silver,100.0
+P02204,NexusChoice Cotton Kurta A671,Fashion,1052207,181,30,16.57,S0376,Habib Store 43,Silver,100.0
+P00622,FashPro Cotton Kurta K606,Fashion,446391,95,15,15.79,S0414,Best Imports 40,Silver,100.0
+P01554,NexusChoice Lawn Suit 3pc F908,Fashion,660508,115,18,15.65,S0203,Rehman Traders 67,Gold,100.0
+P01669,Orion Abaya M382,Fashion,597264,90,14,15.56,S0308,Lahore Imports 66,Gold,100.0
+P02732,Zeta Abaya N607,Fashion,1992354,324,50,15.43,S0376,Habib Store 43,Silver,100.0
+P01291,Zeta Denim Jeans J794,Fashion,527689,188,29,15.43,S0376,Habib Store 43,Silver,100.0
+P02465,Orion Cotton Kurta J932,Fashion,1081261,137,21,15.33,S0203,Rehman Traders 67,Gold,100.0
+P00866,Zeta Denim Jeans A127,Fashion,498749,250,38,15.2,S0308,Lahore Imports 66,Gold,100.0
+P01626,FashPro Lawn Suit 3pc G411,Fashion,458827,74,11,14.86,S0234,Royal Traders 83,Silver,100.0
+P00838,Generic Abaya A539,Fashion,773058,266,39,14.66,S0203,Rehman Traders 67,Gold,100.0
+P02695,FashPro Abaya G370,Fashion,2615127,405,59,14.57,S0308,Lahore Imports 66,Gold,100.0
+P02580,Zeta Cotton Kurta L938,Fashion,579668,90,13,14.44,S0310,Best Store 49,Gold,100.0
+P01676,FashPro Hoodie L219,Fashion,1916703,327,47,14.37,S0376,Habib Store 43,Silver,100.0
+P00712,Zeta Abaya L431,Fashion,2161186,321,46,14.33,S0308,Lahore Imports 66,Gold,94.5
+P01234,FashPro Lawn Suit 3pc N194,Fashion,523848,211,30,14.22,S0203,Rehman Traders 67,Gold,100.0
+P01580,Orion Polo Shirt P447,Fashion,1044766,151,21,13.91,S0203,Rehman Traders 67,Gold,100.0
+P01569,Zeta Lawn Suit 3pc T43,Fashion,541427,223,31,13.9,S0175,Crown Enterprises 11,Silver,100.0
+P00077,Generic Wireless Earbuds U712,Electronics,1098846,36,5,13.89,S0203,Rehman Traders 67,Gold,100.0
+P00613,Orion Polo Shirt U417,Fashion,1099458,326,45,13.8,S0203,Rehman Traders 67,Gold,100.0
+P01482,Orion Formal Shoes F89,Footwear,1143422,301,41,13.62,S0331,Prime Brothers 98,Silver,100.0
+P00468,FashPro Cotton Kurta Y326,Fashion,788212,111,15,13.51,S0220,Metro Solutions 51,Bronze,100.0
+P02353,NexusChoice Polo Shirt S553,Fashion,1180990,335,45,13.43,S0294,Golden Brothers 34,Silver,100.0
+P02360,Generic Abaya V275,Fashion,676506,226,30,13.27,S0286,Star Traders 3,Gold,100.0
+P00990,Orion Lawn Suit 3pc V812,Fashion,2042093,106,14,13.21,S0020,Pak Brothers 33,Silver,100.0
+P02512,Zeta Denim Jeans N564,Fashion,905750,698,92,13.18,S0203,Rehman Traders 67,Gold,100.0
+P01900,Generic Formal Shoes U364,Footwear,659051,69,9,13.04,S0058,Metro Bazaar 73,Gold,100.0
+P02440,Zeta Running Shoes M256,Footwear,1014858,100,13,13.0,S0331,Prime Brothers 98,Silver,100.0
+P00493,Orion Cotton Kurta P133,Fashion,482175,101,13,12.87,S0203,Rehman Traders 67,Gold,100.0
+P01739,Orion Abaya A820,Fashion,635705,156,20,12.82,S0023,Smart Mart 68,Silver,100.0
+P01191,FootPro Sneakers F595,Footwear,1969912,188,24,12.77,S0109,Pak Hub 77,Silver,100.0
+P00312,Generic Denim Jeans R608,Fashion,521378,95,12,12.63,S0142,Karachi Hub 12,Bronze,100.0
+P01749,Zeta Lawn Suit 3pc C818,Fashion,817381,129,16,12.4,S0203,Rehman Traders 67,Gold,100.0
+P02513,fashpro cotton kurta n587,Fashion,751502,188,23,12.23,S0023,Smart Mart 68,Silver,100.0
+P00117,Generic Cotton Kurta H863,Fashion,3589389,214,26,12.15,S0308,Lahore Imports 66,Gold,100.0
+P01323,Generic Polo Shirt I342,Fashion,550778,66,8,12.12,S0203,Rehman Traders 67,Gold,100.0
+P03141,Orion Polo Shirt M503 Original,Fashion,480006,132,16,12.12,S0338,Al-Noor Store 45,Bronze,100.0
+P00696,Orion Abaya J789,Fashion,1618506,220,26,11.82,S0414,Best Imports 40,Silver,100.0
+P02115,Generic Lawn Suit 3pc K506,Fashion,1119047,156,18,11.54,S0297,Star Collection 66,Bronze,100.0
+P01786,NexusChoice Wireless Earbuds N948,Electronics,1145193,61,7,11.48,S0199,Crown Imports 33,Silver,100.0
+P01528,Orion Denim Jeans V248,Fashion,654674,218,25,11.47,S0257,Golden Bazaar 11,Bronze,100.0
+P00633,Orion Denim Jeans L140,Fashion,2049765,253,29,11.46,S0119,Best Hub 88,Silver,100.0
+P00091,orion sneakers j884,Footwear,769036,106,12,11.32,S0117,golden imports 2,Gold,100.0
+P02492,NexusChoice Lawn Suit 3pc F238,Fashion,502685,107,12,11.21,S0412,Best Bazaar 14,Bronze,59.2
+P02912,NexusChoice Cotton Kurta D130,Fashion,1430070,161,18,11.18,S0156,Pak Store 62,Bronze,100.0
+P00235,Generic Cotton Kurta V881,Fashion,657960,170,19,11.18,S0414,Best Imports 40,Silver,100.0
+P02950,Orion Slides D108,Footwear,1116058,99,11,11.11,S0103,Golden Solutions 40,Bronze,100.0
+P02251,Generic Running Shoes H436,Footwear,737587,91,10,10.99,S0095,Prime Imports 92,Bronze,100.0
+P00971,FashPro Polo Shirt M684,Fashion,795084,195,21,10.77,S0310,Best Store 49,Gold,100.0
+P02453,NexusChoice Hoodie C761,Fashion,602662,159,17,10.69,S0124,Habib Imports 15,Silver,100.0
+P00617,Generic Abaya S638,Fashion,1636630,319,34,10.66,S0220,Metro Solutions 51,Bronze,100.0
+P02517,NexusChoice Polo Shirt E494,Fashion,1589302,427,45,10.54,S0090,Crown Hub 49,Bronze,100.0
+P01641,NexusChoice Lawn Suit 3pc N267,Fashion,624412,134,14,10.45,S0310,Best Store 49,Gold,100.0
+P00108,FashPro Denim Jeans V633,Fashion,3021435,549,57,10.38,S0082,Habib Traders 53,Bronze,100.0
+P00619,Generic Hoodie R155,Fashion,961659,600,62,10.33,S0310,Best Store 49,Gold,100.0

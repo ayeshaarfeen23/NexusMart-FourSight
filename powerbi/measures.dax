@@ -1,0 +1,165 @@
+// =====================================================================
+// NexusMart – DAX measures (create a blank table "_Measures" and paste
+// each measure). Definitions match section 9 of the brief exactly.
+// Table names assume the Postgres tables were loaded as:
+//   fact_sales, dim_date, dim_customer, dim_product, dim_seller,
+//   dim_location, seller_scorecard (= mart.v_seller_scorecard)
+// =====================================================================
+
+// ---------- Core revenue ----------
+Gross Sales = SUM ( fact_sales[gross_amount] )
+
+NMV =
+CALCULATE ( SUM ( fact_sales[net_amount] ), fact_sales[is_cancelled] = 0 )
+
+Refunds =
+CALCULATE ( SUM ( fact_sales[returned_amount] ), fact_sales[is_cancelled] = 0 )
+
+Net Revenue = [NMV] - [Refunds]
+
+Discounts =
+CALCULATE ( SUM ( fact_sales[discount_amount] ), fact_sales[is_cancelled] = 0 )
+
+Discount % of Gross =
+DIVIDE ( [Discounts], CALCULATE ( SUM ( fact_sales[gross_amount] ), fact_sales[is_cancelled] = 0 ) )
+
+// ---------- Cost & margin ----------
+COGS =
+CALCULATE (
+    SUM ( fact_sales[cost_amount] ),
+    fact_sales[is_cancelled] = 0,
+    fact_sales[is_returned] = 0
+)
+
+Margin = [Net Revenue] - [COGS]
+
+Margin % = DIVIDE ( [Margin], [Net Revenue] )
+
+Shipping Cost = SUM ( fact_sales[shipping_fee] )
+
+Margin after Shipping = [Margin] - [Shipping Cost]
+
+Margin after Shipping % = DIVIDE ( [Margin after Shipping], [Net Revenue] )
+
+// ---------- Orders & customers ----------
+Orders =
+CALCULATE ( DISTINCTCOUNT ( fact_sales[order_id] ), fact_sales[is_cancelled] = 0 )
+
+All Orders = DISTINCTCOUNT ( fact_sales[order_id] )
+
+Cancelled Orders =
+CALCULATE ( DISTINCTCOUNT ( fact_sales[order_id] ), fact_sales[is_cancelled] = 1 )
+
+Cancellation Rate = DIVIDE ( [Cancelled Orders], [All Orders] )
+
+AOV = DIVIDE ( [NMV], [Orders] )
+
+Units =
+CALCULATE ( SUM ( fact_sales[quantity] ), fact_sales[is_cancelled] = 0 )
+
+Active Customers =
+CALCULATE (
+    DISTINCTCOUNT ( fact_sales[customer_key] ),
+    fact_sales[is_cancelled] = 0,
+    fact_sales[customer_key] <> -1
+)
+
+New Customers =
+CALCULATE (
+    DISTINCTCOUNT ( fact_sales[customer_key] ),
+    fact_sales[is_first_order] = 1,
+    fact_sales[customer_key] <> -1
+)
+
+Returning Customers =
+CALCULATE (
+    DISTINCTCOUNT ( fact_sales[customer_key] ),
+    fact_sales[is_first_order] = 0,
+    fact_sales[is_cancelled] = 0,
+    fact_sales[customer_key] <> -1
+)
+
+Repeat Purchase Rate =
+VAR Buyers =
+    FILTER ( VALUES ( fact_sales[customer_key] ), fact_sales[customer_key] <> -1 && [Orders] >= 1 )
+RETURN
+    DIVIDE ( COUNTROWS ( FILTER ( Buyers, [Orders] >= 2 ) ), COUNTROWS ( Buyers ) )
+
+Observed CLV = DIVIDE ( [Net Revenue], [Active Customers] )
+
+// ---------- Returns ----------
+Delivered Lines = SUM ( fact_sales[is_delivered_line] )
+
+Returned Lines =
+CALCULATE ( SUM ( fact_sales[is_returned] ), fact_sales[is_delivered_line] = 1 )
+
+Return Rate = DIVIDE ( [Returned Lines], [Delivered Lines] )
+
+// Use with dim_date filtered by RETURN date (inactive relationship)
+Refunds by Return Date =
+CALCULATE ( [Refunds], USERELATIONSHIP ( fact_sales[return_date_key], dim_date[date_key] ) )
+
+// ---------- Delivery ----------
+On-Time Rate = AVERAGE ( fact_sales[is_on_time] )          // blanks (not delivered) are ignored
+Avg Delivery Days = AVERAGE ( fact_sales[delivery_days] )
+
+Return Rate (On-time) =
+CALCULATE ( [Return Rate], fact_sales[is_on_time] = 1 )
+
+Return Rate (Late) =
+CALCULATE ( [Return Rate], fact_sales[is_on_time] = 0 )
+
+// ---------- Time intelligence (dim_date marked as date table on full_date) ----------
+Net Revenue PM =
+CALCULATE ( [Net Revenue], DATEADD ( dim_date[full_date], -1, MONTH ) )
+
+Net Revenue MoM % = DIVIDE ( [Net Revenue] - [Net Revenue PM], [Net Revenue PM] )
+
+Orders PM = CALCULATE ( [Orders], DATEADD ( dim_date[full_date], -1, MONTH ) )
+Orders MoM % = DIVIDE ( [Orders] - [Orders PM], [Orders PM] )
+
+AOV PM = CALCULATE ( [AOV], DATEADD ( dim_date[full_date], -1, MONTH ) )
+AOV MoM % = DIVIDE ( [AOV] - [AOV PM], [AOV PM] )
+
+Return Rate PM = CALCULATE ( [Return Rate], DATEADD ( dim_date[full_date], -1, MONTH ) )
+Return Rate MoM (pp) = [Return Rate] - [Return Rate PM]
+
+Cancellation Rate PM = CALCULATE ( [Cancellation Rate], DATEADD ( dim_date[full_date], -1, MONTH ) )
+Cancellation Rate MoM (pp) = [Cancellation Rate] - [Cancellation Rate PM]
+
+Active Customers PM = CALCULATE ( [Active Customers], DATEADD ( dim_date[full_date], -1, MONTH ) )
+Active Customers MoM % = DIVIDE ( [Active Customers] - [Active Customers PM], [Active Customers PM] )
+
+Net Revenue 3M Avg =
+DIVIDE (
+    CALCULATE ( [Net Revenue], DATESINPERIOD ( dim_date[full_date], MAX ( dim_date[full_date] ), -3, MONTH ) ),
+    3
+)
+
+// ---------- Festival comparison ----------
+Avg Daily Net Revenue =
+AVERAGEX ( VALUES ( dim_date[full_date] ), [Net Revenue] )
+
+Avg Daily Net Revenue (Regular days) =
+CALCULATE ( [Avg Daily Net Revenue], dim_date[event_name] = "Regular day" )
+
+Festival Uplift % =
+DIVIDE ( [Avg Daily Net Revenue], [Avg Daily Net Revenue (Regular days)] ) - 1
+
+// ---------- Ranking helpers ----------
+Category Revenue Rank =
+RANKX ( ALL ( dim_product[category] ), [Net Revenue] )
+
+Product Revenue Rank =
+RANKX ( ALL ( dim_product[product_name] ), [Net Revenue] )
+
+Top 5 City Share =
+VAR T = TOPN ( 5, ALL ( dim_location[city] ), [Net Revenue] )
+RETURN DIVIDE ( CALCULATE ( [Net Revenue], T ), CALCULATE ( [Net Revenue], ALL ( dim_location ) ) )
+
+Revenue Share of Total =
+DIVIDE ( [Net Revenue], CALCULATE ( [Net Revenue], ALLSELECTED () ) )
+
+// ---------- Dynamic titles ----------
+Selected Period Label =
+"Data: " & FORMAT ( MIN ( dim_date[full_date] ), "mmm yyyy" ) & " – " & FORMAT ( MAX ( dim_date[full_date] ), "mmm yyyy" )

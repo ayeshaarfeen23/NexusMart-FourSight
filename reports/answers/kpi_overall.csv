@@ -1,0 +1,2 @@
+gross_sales,nmv,net_revenue,cogs,margin,margin_pct,orders_all,orders_non_cancelled,aov,units,return_rate_pct,cancellation_rate_pct,active_customers,discounts_non_cancelled,refunds,shipping_cost,margin_after_shipping
+1436547055.64,1199981658.27,1142380640.37,837430673.12,304949967.25,26.69,159899,145297,8258.82,469634,5.15,9.13,31518,103818158.29,57601017.9,81164266.000151,223785701.249849

@@ -1,0 +1,651 @@
+city,province,population_tier,nmv,net_revenue,share_pct,rank_desc
+Karachi,Sindh,Metro,226308708.76,216361710.31,18.977,1
+Lahore,Punjab,Metro,183225979.34,174960416.14,15.346,2
+Islamabad,Islamabad Capital Territory,Metro,87673984.4,83708207.05,7.342,3
+Rawalpindi,Punjab,Metro,60449191.3,57720539.3,5.063,4
+Faisalabad,Punjab,Metro,56778126.95,54113737.7,4.746,5
+Peshawar,Khyber Pakhtunkhwa,Metro,42641055.75,40632651.25,3.564,6
+Multan,Punjab,Tier-2,33351401.95,31840683.15,2.793,7
+Hyderabad,Sindh,Tier-2,26968508.74,25609653.74,2.246,8
+Gujranwala,Punjab,Tier-2,25654402.75,24478389.05,2.147,9
+Sialkot,Punjab,Tier-2,20540836.05,19533319.05,1.713,10
+Quetta,Balochistan,Tier-2,14982123.65,14238320.05,1.249,11
+Sargodha,Punjab,Tier-2,13758570.85,13027133.85,1.143,12
+Gujrat,Punjab,Tier-3,13203351.6,12618822.6,1.107,13
+Bahawalpur,Punjab,Tier-2,13033285.9,12297422.9,1.079,14
+Sukkur,Sindh,Tier-2,12743832.75,11981848.75,1.051,15
+Mardan,Khyber Pakhtunkhwa,Tier-2,11486424.77,11056887.77,0.97,16
+Abbottabad,Khyber Pakhtunkhwa,Tier-2,10539035.6,9956645.6,0.873,17
+Sheikhupura,Punjab,Tier-3,9910400.6,9147913.9,0.802,18
+Rahim Yar Khan,Punjab,Tier-3,8947019.45,8538742.45,0.749,19
+Mingora,Khyber Pakhtunkhwa,Tier-3,7628761.7,7078262.7,0.621,20
+Jhang,Punjab,Tier-3,7420402.8,6943365.8,0.609,21
+Sahiwal,Punjab,Tier-3,6719058.35,6275087.35,0.55,22
+Larkana,Sindh,Tier-3,6422673.4,6012800.4,0.527,23
+Muzaffarabad,Azad Jammu & Kashmir,Tier-3,6097991.24,5814454.74,0.51,24
+Okara,Punjab,Tier-3,5691924.15,5373064.95,0.471,25
+Dera Ghazi Khan,Punjab,Tier-3,5643871.55,5278772.55,0.463,26
+Kasur,Punjab,Tier-3,5343092.34,5170931.34,0.454,27
+Kohat,Khyber Pakhtunkhwa,Tier-3,5276855.1,5002722.1,0.439,28
+NAWABSHAH,Sindh,Tier-3,5145783.0,4838262.0,0.424,29
+Mirpur Khas,Sindh,Tier-3,4775644.05,4521737.05,0.397,30
+Jhelum,Punjab,Tier-3,4766828.15,4472886.15,0.392,31
+Chiniot,Punjab,Tier-3,4182946.6,3930333.6,0.345,32
+Mirpur,Khyber Pakhtunkhwa,Tier-3,3908141.76,3723506.76,0.327,33
+Dera Ismail Khan,Khyber Pakhtunkhwa,Tier-3,3728999.1,3491366.1,0.306,34
+Attock,Punjab,Tier-3,3330950.8,3149128.8,0.276,35
+Bannu,Khyber Pakhtunkhwa,Tier-3,3216973.85,3064881.85,0.269,36
+Mansehra,Khyber Pakhtunkhwa,Tier-3,2973872.4,2813761.4,0.247,37
+Gwadar,Balochistan,Tier-3,2832376.65,2716218.45,0.238,38
+Mianwali,Punjab,Tier-3,2741765.1,2614827.1,0.229,39
+GILGIT,Gilgit-Baltistan,Tier-3,2388515.26,2324863.26,0.204,40
+Jacobabad,Sindh,Tier-3,2277587.95,2171973.95,0.191,41
+Turbat,Balochistan,Tier-3,2079902.9,1923838.9,0.169,42
+Thatta,Sindh,Tier-3,1776685.95,1708037.95,0.15,43
+Khuzdar,Balochistan,Tier-3,1796858.2,1663425.2,0.146,44
+Sibi,Balochistan,Tier-3,1424760.05,1389309.05,0.122,45
+Skardu,Gilgit-Baltistan,Tier-3,1292323.75,1224431.75,0.107,46
+WalaKila,Punjab,Tier-3,1202500.0,1162862.0,0.102,47
+MianJandTando,Punjab,Tier-3,1144130.35,1112551.35,0.098,48
+MorMorChak,Punjab,Tier-3,1147793.2,1099170.2,0.096,49
+MianChakNagar,Punjab,Tier-3,1017237.3,969064.3,0.085,50
+SaraiPur,Sindh,Tier-3,926834.8,883445.8,0.077,51
+BastiThal,Punjab,Tier-3,884183.7,873760.7,0.077,52
+NagarShahBasti,Sindh,Tier-3,910148.0,873282.0,0.077,53
+ChakGarh,Khyber Pakhtunkhwa,Tier-3,907212.3,854862.3,0.075,54
+RahPur,Punjab,Tier-3,889920.8,825871.8,0.072,55
+NauKalanPind,Balochistan,Tier-3,873387.45,819269.45,0.072,56
+KotPurKot,Sindh,Tier-3,825634.85,811858.85,0.071,57
+DeraAli,Punjab,Tier-3,837977.9,767209.9,0.067,58
+RahLalKhurd,Balochistan,Tier-3,771949.7,754391.7,0.066,59
+NauKhan,Punjab,Tier-3,790598.1,749771.1,0.066,60
+AbadBastiGola,Gilgit-Baltistan,Tier-3,773684.6,748405.6,0.066,61
+DeraAbad,Balochistan,Tier-3,767890.25,747564.25,0.066,62
+ThalBastiWala,Punjab,Tier-3,760916.85,728040.85,0.064,63
+NauShahGarh,Azad Jammu & Kashmir,Tier-3,771337.55,718261.55,0.063,64
+ShahKhurdKila,Balochistan,Tier-3,741150.4,716644.4,0.063,65
+BhalRah,Balochistan,Tier-3,747793.1,715502.1,0.063,66
+ThalWala,Sindh,Tier-3,722544.1,713502.1,0.063,67
+PurDhok,Sindh,Tier-3,741128.25,713289.25,0.063,68
+NauSaraiShah,Sindh,Tier-3,750209.0,706091.0,0.062,69
+GolaNauDhok,Sindh,Tier-3,742791.65,690626.65,0.061,70
+GarhDera,Sindh,Tier-3,711963.8,687762.8,0.06,71
+ShahKhurd,Sindh,Tier-3,718274.0,682134.0,0.06,72
+GarhShahPur,Punjab,Tier-3,703506.75,674229.75,0.059,73
+DeraKotThal,Sindh,Tier-3,724361.85,669153.85,0.059,74
+KhurdLalGul,Punjab,Tier-3,705680.45,663813.45,0.058,75
+NauThalTando,Gilgit-Baltistan,Tier-3,678238.2,663498.2,0.058,76
+SaraiGarhGarh,Sindh,Tier-3,663930.05,661265.05,0.058,77
+GolaMariBhal,Punjab,Tier-3,668466.85,655857.85,0.058,78
+KalanKhurdKhan,Punjab,Tier-3,682754.25,644861.25,0.057,79
+LalBasti,Sindh,Tier-3,677356.75,633573.75,0.056,80
+PurGulGul,Punjab,Tier-3,645614.25,631205.25,0.055,81
+KotDhokRah,Punjab,Tier-3,662220.35,628233.35,0.055,82
+kalankot,Punjab,Tier-3,653246.95,624201.95,0.055,83
+ChakPind,Punjab,Tier-3,641891.95,623501.95,0.055,84
+AliThalShah,Khyber Pakhtunkhwa,Tier-3,646716.75,622154.75,0.055,85
+GulLal,Punjab,Tier-3,631788.7,618790.7,0.054,86
+KilaSarai,Punjab,Tier-3,634427.25,617057.25,0.054,87
+MianNagarDhok,Punjab,Tier-3,647503.3,614167.3,0.054,88
+ChakThalPind,Khyber Pakhtunkhwa,Tier-3,657583.2,613575.2,0.054,89
+KotThalGola,Punjab,Tier-3,625245.15,611571.15,0.054,90
+WalaMorKila,Punjab,Tier-3,629310.4,606801.4,0.053,91
+WalaLalAbad,Punjab,Tier-3,724442.8,602754.8,0.053,92
+KhanKilaRah,Azad Jammu & Kashmir,Tier-3,627305.75,601391.75,0.053,93
+NagarKot,Azad Jammu & Kashmir,Tier-3,605905.3,597347.3,0.052,94
+KhurdBastiGola,Gilgit-Baltistan,Tier-3,617867.15,596489.15,0.052,95
+GulPurJand,Sindh,Tier-3,630259.85,588829.85,0.052,96
+DhokDeraDera,Punjab,Tier-3,594870.1,585516.1,0.051,97
+ThalThalNau,Punjab,Tier-3,586332.5,585296.5,0.051,98
+GulShahAbad,Balochistan,Tier-3,594045.5,578777.5,0.051,99
+PurKila,Punjab,Tier-3,630424.4,575329.4,0.05,100
+WalaNagar,Sindh,Tier-3,606800.1,574815.1,0.05,101
+NagarGola,Punjab,Tier-3,599636.4,574788.4,0.05,102
+NauKotRah,Punjab,Tier-3,579996.75,573885.75,0.05,103
+DhokNau,Punjab,Tier-3,623406.8,572104.8,0.05,104
+DhokNagarChak,Sindh,Tier-3,596329.35,569131.35,0.05,105
+KilaMor,Sindh,Tier-3,587268.0,561558.0,0.049,106
+GarhKhan,Punjab,Tier-3,574557.45,559814.45,0.049,107
+MorDhok,Sindh,Tier-3,563298.65,558708.65,0.049,108
+WalaWalaTando,Sindh,Tier-3,566291.15,558329.15,0.049,109
+MianNau,Punjab,Tier-3,575069.4,556516.4,0.049,110
+BHALKOT,Punjab,Tier-3,600919.1,555321.1,0.049,111
+JandDhok,Punjab,Tier-3,563917.55,551378.55,0.048,112
+ThalBhalGul,Punjab,Tier-3,560161.3,549468.3,0.048,113
+PindNau,Punjab,Tier-3,568052.3,548728.3,0.048,114
+gulwala,Sindh,Tier-3,558904.05,547302.05,0.048,115
+ShahMianAbad,Sindh,Tier-3,582921.7,544935.7,0.048,116
+MorGola,Khyber Pakhtunkhwa,Tier-3,544842.65,542385.65,0.048,117
+ChakMian,Sindh,Tier-3,567548.25,542208.25,0.048,118
+MariKhanDhok,Punjab,Tier-3,546520.1,538994.1,0.047,119
+JandBhalWala,Punjab,Tier-3,561213.75,538673.75,0.047,120
+NagarDhokSarai,Sindh,Tier-3,554347.95,538215.95,0.047,121
+KhanGulGul,Punjab,Tier-3,542586.15,530044.15,0.046,122
+PindShah,Punjab,Tier-3,565481.45,529684.45,0.046,123
+DhokMian,Punjab,Tier-3,556607.45,529183.45,0.046,124
+KalanDera,Punjab,Tier-3,582276.5,526734.5,0.046,125
+KhanKila,Punjab,Tier-3,538037.9,524085.9,0.046,126
+saraikhanrah,Khyber Pakhtunkhwa,Tier-3,546615.5,523052.5,0.046,127
+MariDhokLal,Punjab,Tier-3,559141.0,522823.05,0.046,128
+GulBastiLal,Punjab,Tier-3,575883.6,522285.6,0.046,129
+TandoNauLal,Khyber Pakhtunkhwa,Tier-3,591203.9,520865.9,0.046,130
+ChakBhalPur,Sindh,Tier-3,534459.2,519743.2,0.046,131
+SaraiKalanBhal,Punjab,Tier-3,562942.2,519667.2,0.046,132
+TandoWala,Sindh,Tier-3,546513.15,517386.15,0.045,133
+PurPind,Punjab,Tier-3,545354.65,515677.65,0.045,134
+ChakMari,Punjab,Tier-3,535196.35,515088.35,0.045,135
+TandoGul,Azad Jammu & Kashmir,Tier-3,586193.45,514857.45,0.045,136
+MorKalan,Sindh,Tier-3,527577.45,513236.45,0.045,137
+JandShahRah,Punjab,Tier-3,516190.1,511845.1,0.045,138
+LalTando,Khyber Pakhtunkhwa,Tier-3,581320.55,511141.55,0.045,139
+ThalNauGola,Punjab,Tier-3,532638.9,510481.9,0.045,140
+KalanKilaMari,Punjab,Tier-3,528083.8,509351.8,0.045,141
+BastiPurBasti,Punjab,Tier-3,556089.9,507162.9,0.044,142
+BastiGola,Punjab,Tier-3,534974.6,505146.6,0.044,143
+PurAli,Punjab,Tier-3,508945.45,503485.45,0.044,144
+DhokKhan,Punjab,Tier-3,533581.6,498638.6,0.044,145
+MianKalanGul,Punjab,Tier-3,530317.3,498230.3,0.044,146
+KotPindPind,Sindh,Tier-3,505417.9,498141.9,0.044,147
+KilaGola,Sindh,Tier-3,535584.5,493434.5,0.043,148
+kilatando,Punjab,Tier-3,510368.85,490250.85,0.043,149
+JandBhal,Punjab,Tier-3,497637.8,489218.8,0.043,150
+AliMianBhal,Punjab,Tier-3,504382.6,487074.6,0.043,151
+GarhTando,Punjab,Tier-3,587807.65,485761.65,0.043,152
+khantandowala,Punjab,Tier-3,507219.0,484270.0,0.042,153
+PindSaraiKhan,Khyber Pakhtunkhwa,Tier-3,485666.15,483052.15,0.042,154
+PurDeraShah,Sindh,Tier-3,495700.6,481811.6,0.042,155
+GulGarh,Sindh,Tier-3,500860.1,481503.1,0.042,156
+GulDera,Punjab,Tier-3,555116.2,481231.2,0.042,157
+GarhKalanKot,Sindh,Tier-3,495179.7,480591.7,0.042,158
+ThalKot,Sindh,Tier-3,521118.75,480001.25,0.042,159
+MariGola,Sindh,Tier-3,503576.25,476799.25,0.042,160
+MorShahKhurd,Sindh,Tier-3,480429.85,476159.85,0.042,161
+AbadKot,Sindh,Tier-3,488303.55,475805.55,0.042,162
+NagarTandoRah,Sindh,Tier-3,490007.65,475732.65,0.042,163
+DERAKHURDKILA,Sindh,Tier-3,487836.25,474619.25,0.042,164
+GolaGarh,Khyber Pakhtunkhwa,Tier-3,551816.95,474128.95,0.042,165
+RahBhalShah,Khyber Pakhtunkhwa,Tier-3,528275.8,473608.8,0.042,166
+LalPindMian,Punjab,Tier-3,497009.85,472357.85,0.041,167
+ThalPurPind,Punjab,Tier-3,494373.45,470933.45,0.041,168
+DeraWala,Balochistan,Tier-3,497243.45,470484.45,0.041,169
+ChakWala,Sindh,Tier-3,498302.65,467652.65,0.041,170
+AliNagarGola,Khyber Pakhtunkhwa,Tier-3,490792.8,467638.8,0.041,171
+DhokChak,Punjab,Tier-3,480366.6,465510.6,0.041,172
+SaraiSaraiRah,Sindh,Tier-3,481345.6,465464.6,0.041,173
+KotWala,Sindh,Tier-3,490597.05,465250.05,0.041,174
+GolaKhan,Punjab,Tier-3,513864.6,465152.6,0.041,175
+KotLal,Sindh,Tier-3,483915.8,463915.8,0.041,176
+TandoMian,Khyber Pakhtunkhwa,Tier-3,501350.75,463717.75,0.041,177
+ThalAli,Punjab,Tier-3,502450.8,463503.8,0.041,178
+GulDeraKhan,Punjab,Tier-3,505349.35,462376.35,0.041,179
+KHURDSHAHCHAK,Punjab,Tier-3,473128.95,456920.95,0.04,180
+NagarMari,Punjab,Tier-3,470800.15,455425.15,0.04,181
+AliKotGul,Punjab,Tier-3,467260.75,455399.75,0.04,182
+KotKhurdDera,Khyber Pakhtunkhwa,Tier-3,467369.8,454379.8,0.04,183
+TandoThal,Khyber Pakhtunkhwa,Tier-3,474436.35,453039.35,0.04,184
+BastiChak,Sindh,Tier-3,466472.6,451587.6,0.04,185
+ShahKot,Punjab,Tier-3,507974.45,451435.45,0.04,186
+AliKilaKalan,Gilgit-Baltistan,Tier-3,471034.2,451389.2,0.04,187
+KilaChakKila,Sindh,Tier-3,470395.0,450844.0,0.04,188
+DhokKhanLal,Khyber Pakhtunkhwa,Tier-3,485134.2,448574.2,0.039,189
+PurJand,Punjab,Tier-3,452512.8,448120.8,0.039,190
+GolaPind,Sindh,Tier-3,477208.2,446804.2,0.039,191
+PurMariMor,Punjab,Tier-3,472028.05,444580.05,0.039,192
+KalanPindGarh,Punjab,Tier-3,484002.25,442795.25,0.039,193
+NagarBastiGarh,Sindh,Tier-3,460843.8,442620.8,0.039,194
+NagarNagar,Punjab,Tier-3,450342.15,441992.15,0.039,195
+GarhMor,Khyber Pakhtunkhwa,Tier-3,525086.45,439582.45,0.039,196
+NagarGarh,Sindh,Tier-3,444364.9,438715.9,0.038,197
+SaraiDera,Sindh,Tier-3,469107.05,433284.05,0.038,198
+MorRahKhan,Punjab,Tier-3,451966.15,433045.15,0.038,199
+GarhNauKalan,Punjab,Tier-3,463072.05,432805.05,0.038,200
+DeraDeraDhok,Punjab,Tier-3,457252.9,431838.9,0.038,201
+ThalPindGarh,Khyber Pakhtunkhwa,Tier-3,438083.55,431336.55,0.038,202
+KhanGulNau,Sindh,Tier-3,457501.5,429886.9,0.038,203
+PindDeraLal,Sindh,Tier-3,439520.6,426641.6,0.037,204
+PurDera,Punjab,Tier-3,442492.55,424598.55,0.037,205
+ChakMianShah,Sindh,Tier-3,442616.5,422767.5,0.037,206
+GolaKotTando,Azad Jammu & Kashmir,Tier-3,440725.3,420909.3,0.037,207
+RahDera,Sindh,Tier-3,433453.25,420304.25,0.037,208
+PurMariJand,Balochistan,Tier-3,442608.35,419124.35,0.037,209
+AliJand,Punjab,Tier-3,424416.7,418805.7,0.037,210
+MariAbad,Khyber Pakhtunkhwa,Tier-3,440040.45,417728.45,0.037,211
+KotGulMari,Sindh,Tier-3,443809.45,417226.15,0.037,212
+ChakPur,Punjab,Tier-3,458628.56,414496.56,0.036,213
+MorGul,Khyber Pakhtunkhwa,Tier-3,416267.75,413344.75,0.036,214
+MorShahAli,Punjab,Tier-3,432339.05,412765.05,0.036,215
+TandoDeraGul,Punjab,Tier-3,416191.5,412467.5,0.036,216
+ThalThalThal,Gilgit-Baltistan,Tier-3,449644.0,411655.0,0.036,217
+MorKhurd,Punjab,Tier-3,441031.75,411315.75,0.036,218
+AliKhan,Punjab,Tier-3,419842.4,409854.4,0.036,219
+LalWalaNagar,Khyber Pakhtunkhwa,Tier-3,417289.6,409300.6,0.036,220
+PindPurMor,Azad Jammu & Kashmir,Tier-3,429737.85,409186.85,0.036,221
+NagarTando,Punjab,Tier-3,421320.7,408659.7,0.036,222
+GarhMariMian,Punjab,Tier-3,413549.15,407650.15,0.036,223
+PindMorPur,Punjab,Tier-3,418277.25,407010.05,0.036,224
+PurKilaBasti,Punjab,Tier-3,435842.35,406362.35,0.036,225
+NagarBasti,Punjab,Tier-3,448462.75,405911.75,0.036,226
+SaraiMor,Punjab,Tier-3,422451.95,404484.25,0.035,227
+KhurdNagarAbad,Balochistan,Tier-3,402168.85,401313.85,0.035,228
+GarhDhok,Khyber Pakhtunkhwa,Tier-3,513084.75,401311.75,0.035,229
+SaraiMianKhan,Punjab,Tier-3,403402.8,398764.8,0.035,230
+JandKhan,Sindh,Tier-3,399116.95,397105.95,0.035,231
+GarhPindAli,Punjab,Tier-3,405534.65,396062.65,0.035,232
+WalaThalDera,Punjab,Tier-3,412431.65,394032.65,0.035,233
+MariAliRah,Khyber Pakhtunkhwa,Tier-3,403293.3,391835.3,0.034,234
+TandoChakJand,Punjab,Tier-3,402676.7,391104.7,0.034,235
+KhanPind,Sindh,Tier-3,407687.2,391012.2,0.034,236
+ThalShahPind,Balochistan,Tier-3,403120.25,390959.25,0.034,237
+RahChak,Sindh,Tier-3,426138.7,390925.7,0.034,238
+AliSaraiLal,Balochistan,Tier-3,408337.35,389355.35,0.034,239
+KotChak,Balochistan,Tier-3,396856.95,389210.95,0.034,240
+SaraiNagarKalan,Gilgit-Baltistan,Tier-3,397625.35,389123.35,0.034,241
+LalChakKhan,Sindh,Tier-3,401682.55,388993.55,0.034,242
+TandoJand,Punjab,Tier-3,432792.4,388451.4,0.034,243
+TandoBhalLal,Sindh,Tier-3,424482.75,386123.65,0.034,244
+ThalShah,Punjab,Tier-3,399305.15,385578.15,0.034,245
+GarhThalKalan,Sindh,Tier-3,392417.65,384916.65,0.034,246
+GolaShahBasti,Khyber Pakhtunkhwa,Tier-3,419265.15,384422.65,0.034,247
+KilaBastiLal,Khyber Pakhtunkhwa,Tier-3,432875.35,383199.35,0.034,248
+WalaDera,Punjab,Tier-3,406439.3,382908.3,0.034,249
+ChakMorKalan,Punjab,Tier-3,415020.55,382190.3,0.034,250
+AliBhal,Punjab,Tier-3,390693.7,380460.7,0.033,251
+rahnagarnau,Punjab,Tier-3,383994.5,379997.5,0.033,252
+BhalBasti,Gilgit-Baltistan,Tier-3,384630.95,379586.95,0.033,253
+DhokNauBhal,Punjab,Tier-3,389467.15,378662.15,0.033,254
+RahMianMian,Punjab,Tier-3,397397.45,378305.45,0.033,255
+KhurdAliRah,Sindh,Tier-3,398023.6,374081.6,0.033,256
+NauBhalKhan,Balochistan,Tier-3,375244.55,373944.55,0.033,257
+KotKhan,Balochistan,Tier-3,378902.65,373208.65,0.033,258
+MianBasti,Sindh,Tier-3,384939.75,372920.75,0.033,259
+GulGarhDhok,Punjab,Tier-3,383980.8,372710.8,0.033,260
+BastiMor,Punjab,Tier-3,382579.5,372136.5,0.033,261
+MorAbad,Khyber Pakhtunkhwa,Tier-3,374532.15,371676.15,0.033,262
+RahBhal,Sindh,Tier-3,374799.9,370645.9,0.033,263
+ALIGULBASTI,Sindh,Tier-3,381679.8,370297.8,0.032,264
+KalanDhokGul,Balochistan,Tier-3,396948.85,370110.85,0.032,265
+PindLal,Punjab,Tier-3,375271.75,369899.75,0.032,266
+ChakNau,Khyber Pakhtunkhwa,Tier-3,380459.55,369771.55,0.032,267
+KhanDhokPind,Sindh,Tier-3,378221.25,368867.25,0.032,268
+NauWala,Balochistan,Tier-3,409066.4,368377.4,0.032,269
+LalLalAli,Punjab,Tier-3,371016.1,368018.1,0.032,270
+KhanLal,Sindh,Tier-3,375370.65,368015.65,0.032,271
+DhokMianDera,Punjab,Tier-3,380324.05,367796.05,0.032,272
+SaraiWala,Sindh,Tier-3,386360.1,367157.1,0.032,273
+KilaAliKhan,Khyber Pakhtunkhwa,Tier-3,395392.1,367132.1,0.032,274
+KhanSarai,Khyber Pakhtunkhwa,Tier-3,383543.2,366060.2,0.032,275
+JandChak,Balochistan,Tier-3,378534.35,365330.35,0.032,276
+PurGarhMari,Sindh,Tier-3,373024.85,364571.85,0.032,277
+AliJandKalan,Punjab,Tier-3,399820.1,363906.1,0.032,278
+KalanBhalAbad,Punjab,Tier-3,392432.9,362817.9,0.032,279
+ShahChakAbad,Balochistan,Tier-3,380502.1,362268.1,0.032,280
+DeraTandoMari,Punjab,Tier-3,381433.8,362069.8,0.032,281
+BastiKhurdMari,Khyber Pakhtunkhwa,Tier-3,372493.6,362060.6,0.032,282
+DeraWalaGola,Balochistan,Tier-3,380568.3,361205.3,0.032,283
+PurPurThal,Balochistan,Tier-3,380083.05,361205.05,0.032,284
+RahDhok,Punjab,Tier-3,381389.75,361036.75,0.032,285
+ThalMianMian,Khyber Pakhtunkhwa,Tier-3,377290.4,360792.4,0.032,286
+MariGulKila,Punjab,Tier-3,367909.25,360159.25,0.032,287
+GolaKilaMian,Punjab,Tier-3,440014.7,357963.7,0.031,288
+ChakBasti,Khyber Pakhtunkhwa,Tier-3,372528.95,357899.95,0.031,289
+RahDeraLal,Khyber Pakhtunkhwa,Tier-3,375411.65,355915.65,0.031,290
+WalaShah,Balochistan,Tier-3,366898.55,355091.55,0.031,291
+PurKalan,Khyber Pakhtunkhwa,Tier-3,358177.5,353446.5,0.031,292
+BastiMariBhal,Punjab,Tier-3,369293.45,353132.45,0.031,293
+ShahSarai,Sindh,Tier-3,380090.0,352543.0,0.031,294
+ThalSaraiDhok,Punjab,Tier-3,369042.4,351609.4,0.031,295
+GulBastiWala,Balochistan,Tier-3,361479.15,351160.15,0.031,296
+BhalMariAbad,Sindh,Tier-3,363365.2,350878.2,0.031,297
+KalanDhok,Khyber Pakhtunkhwa,Tier-3,362502.3,349706.8,0.031,298
+MianMor,Khyber Pakhtunkhwa,Tier-3,353270.35,349126.35,0.031,299
+ShahAli,Khyber Pakhtunkhwa,Tier-3,376692.5,346649.5,0.03,300
+GarhKotRah,Punjab,Tier-3,352315.95,346284.95,0.03,301
+PurDeraPur,Gilgit-Baltistan,Tier-3,363203.75,345489.75,0.03,302
+PindRah,Sindh,Tier-3,349424.05,345286.05,0.03,303
+AliMian,Sindh,Tier-3,361814.85,344258.85,0.03,304
+AliGolaDhok,Gilgit-Baltistan,Tier-3,436929.65,342866.65,0.03,305
+NauSarai,Khyber Pakhtunkhwa,Tier-3,347886.5,342318.5,0.03,306
+DeraGul,Khyber Pakhtunkhwa,Tier-3,365407.65,342295.65,0.03,307
+NagarNauBhal,Sindh,Tier-3,361901.8,341491.8,0.03,308
+AliMorBhal,Punjab,Tier-3,372583.85,340516.85,0.03,309
+PurTando,Khyber Pakhtunkhwa,Tier-3,355795.2,340430.2,0.03,310
+SaraiTandoSarai,Punjab,Tier-3,378537.45,339519.25,0.03,311
+GolaDhok,Punjab,Tier-3,360123.45,339499.45,0.03,312
+SaraiLalPur,Punjab,Tier-3,360808.75,338509.75,0.03,313
+KhurdPur,Balochistan,Tier-3,354338.2,336307.6,0.029,314
+AbadAli,Sindh,Tier-3,349214.3,334534.3,0.029,315
+ChakGul,Punjab,Tier-3,350792.9,334399.9,0.029,316
+ChakPindMor,Sindh,Tier-3,347636.25,333371.25,0.029,317
+GarhKilaDhok,Punjab,Tier-3,357651.0,332477.0,0.029,318
+KhurdAli,Punjab,Tier-3,360057.75,331599.75,0.029,319
+PindDhok,Punjab,Tier-3,336331.7,331250.7,0.029,320
+ShahJand,Balochistan,Tier-3,332358.95,331141.95,0.029,321
+KhurdKhurd,Khyber Pakhtunkhwa,Tier-3,371806.9,330708.9,0.029,322
+DhokWalaPind,Khyber Pakhtunkhwa,Tier-3,344847.75,329451.75,0.029,323
+lalsaraimari,Azad Jammu & Kashmir,Tier-3,356076.45,328948.45,0.029,324
+KhanMian,Punjab,Tier-3,328736.9,328736.9,0.029,325
+BastiGarhGola,Punjab,Tier-3,334380.6,328626.6,0.029,326
+GarhBhal,Khyber Pakhtunkhwa,Tier-3,337599.5,327616.5,0.029,327
+NagarGarhKhan,Punjab,Tier-3,338290.25,326552.25,0.029,328
+BastiLalGul,Khyber Pakhtunkhwa,Tier-3,335295.3,326147.3,0.029,329
+PurTandoDhok,Sindh,Tier-3,327619.65,325960.65,0.029,330
+WalaAbad,Punjab,Tier-3,343351.55,325781.55,0.029,331
+GolaAbad,Punjab,Tier-3,334466.05,325022.05,0.029,332
+KhurdKalan,Punjab,Tier-3,336752.05,324702.05,0.028,333
+KhanMariThal,Sindh,Tier-3,324092.65,323572.65,0.028,334
+BastiJand,Punjab,Tier-3,355694.6,323569.6,0.028,335
+PurChakDera,Khyber Pakhtunkhwa,Tier-3,343693.55,323028.55,0.028,336
+GulShah,Punjab,Tier-3,351802.65,322581.65,0.028,337
+MianAbad,Balochistan,Tier-3,339656.85,322039.85,0.028,338
+KilaWala,Punjab,Tier-3,355891.65,321515.65,0.028,339
+ChakGola,Punjab,Tier-3,351210.15,320975.15,0.028,340
+DhokDhokAli,Sindh,Tier-3,335290.95,320782.95,0.028,341
+RahMariSarai,Punjab,Tier-3,325387.8,320744.8,0.028,342
+BhalKalan,Khyber Pakhtunkhwa,Tier-3,330190.55,320367.55,0.028,343
+DeraBasti,Balochistan,Tier-3,323151.65,319581.65,0.028,344
+DeraDera,Punjab,Tier-3,330074.4,319557.4,0.028,345
+NagarThalNau,Azad Jammu & Kashmir,Tier-3,331910.6,318911.6,0.028,346
+TandoMorLal,Khyber Pakhtunkhwa,Tier-3,328338.2,315850.2,0.028,347
+NagarMian,Khyber Pakhtunkhwa,Tier-3,338980.3,315153.3,0.028,348
+PurBhalRah,Punjab,Tier-3,335458.7,314148.7,0.028,349
+KalanPur,Punjab,Tier-3,352626.0,312994.0,0.027,350
+GulKilaMari,Punjab,Tier-3,312970.15,312970.15,0.027,351
+WalaLal,Punjab,Tier-3,320647.5,312292.5,0.027,352
+AbadDhokKila,Khyber Pakhtunkhwa,Tier-3,333395.95,312075.95,0.027,353
+BhalRahBhal,Punjab,Tier-3,339469.95,311731.95,0.027,354
+WalaWala,Balochistan,Tier-3,329968.45,311229.45,0.027,355
+JandDera,Punjab,Tier-3,313997.65,311006.65,0.027,356
+MianPur,Punjab,Tier-3,326818.2,310928.2,0.027,357
+MianKhurd,Punjab,Tier-3,335221.5,310354.5,0.027,358
+LalKalan,Sindh,Tier-3,320886.95,308677.95,0.027,359
+PINDABAD,Punjab,Tier-3,326005.35,308203.35,0.027,360
+WalaMari,Punjab,Tier-3,338822.6,307338.6,0.027,361
+PurBhal,Punjab,Tier-3,315687.05,307073.05,0.027,362
+MorPind,Sindh,Tier-3,337151.7,306602.7,0.027,363
+RahWala,Khyber Pakhtunkhwa,Tier-3,325188.4,305769.4,0.027,364
+WALARAH,Punjab,Tier-3,312100.15,304942.15,0.027,365
+golasarai,Punjab,Tier-3,315356.2,304667.2,0.027,366
+LalRah,Balochistan,Tier-3,324838.85,303498.85,0.027,367
+DhokAliMari,Punjab,Tier-3,317122.15,303206.15,0.027,368
+BastiNauJand,Khyber Pakhtunkhwa,Tier-3,323375.6,302283.8,0.027,369
+ThalKotAbad,Khyber Pakhtunkhwa,Tier-3,340644.25,300463.25,0.026,370
+DeraLalKhurd,Khyber Pakhtunkhwa,Tier-3,330192.15,299284.15,0.026,371
+DeraChak,Punjab,Tier-3,305852.4,299193.4,0.026,372
+AliKot,Balochistan,Tier-3,315670.4,299141.4,0.026,373
+RahKalan,Balochistan,Tier-3,298959.9,298048.9,0.026,374
+LalDera,Punjab,Tier-3,333081.4,297595.4,0.026,375
+DhokMor,Punjab,Tier-3,354245.0,297039.0,0.026,376
+ThalGola,Punjab,Tier-3,307156.25,297007.25,0.026,377
+KilaPur,Sindh,Tier-3,342278.75,296622.75,0.026,378
+GolaTando,Punjab,Tier-3,305358.9,294227.9,0.026,379
+GarhMianMari,Punjab,Tier-3,293960.9,293960.9,0.026,380
+MariPurAbad,Balochistan,Tier-3,298708.1,291442.1,0.026,381
+GulGola,Punjab,Tier-3,303260.05,291315.05,0.026,382
+DhokBhalMor,Sindh,Tier-3,308410.85,291247.85,0.026,383
+KhurdPind,Balochistan,Tier-3,293998.15,290040.15,0.025,384
+NauLal,Sindh,Tier-3,297178.95,289773.95,0.025,385
+BhalTando,Sindh,Tier-3,293685.65,288965.65,0.025,386
+KilaGarhPind,Punjab,Tier-3,289771.7,288513.7,0.025,387
+MariBhalMari,Punjab,Tier-3,293051.1,287964.1,0.025,388
+MianAliWala,Sindh,Tier-3,288376.25,287868.25,0.025,389
+AbadBasti,Punjab,Tier-3,299066.3,287184.3,0.025,390
+AliDeraLal,Sindh,Tier-3,314029.8,285859.8,0.025,391
+KotGarh,Punjab,Tier-3,306352.75,285602.75,0.025,392
+SaraiJand,Khyber Pakhtunkhwa,Tier-3,313467.95,284847.95,0.025,393
+NagarKhurdBasti,Sindh,Tier-3,304217.45,284514.45,0.025,394
+DeraBhal,Sindh,Tier-3,297711.4,282459.4,0.025,395
+DhokPur,Sindh,Tier-3,300261.55,281766.55,0.025,396
+NauPind,Punjab,Tier-3,292433.5,281371.5,0.025,397
+AbadPindSarai,Punjab,Tier-3,291151.4,280709.4,0.025,398
+KhanRah,Khyber Pakhtunkhwa,Tier-3,335289.3,279845.3,0.025,399
+AliWalaLal,Punjab,Tier-3,283656.8,277922.8,0.024,400
+MianShahRah,Punjab,Tier-3,276948.95,276948.95,0.024,401
+KalanMian,Punjab,Tier-3,281820.8,274765.8,0.024,402
+GolaShahSarai,Khyber Pakhtunkhwa,Tier-3,272468.9,272468.9,0.024,403
+DeraDhok,Punjab,Tier-3,290301.75,271368.75,0.024,404
+PindGarhGarh,Sindh,Tier-3,279397.45,270881.45,0.024,405
+GulThalKalan,Punjab,Tier-3,279074.5,270878.5,0.024,406
+JandPurMor,Khyber Pakhtunkhwa,Tier-3,293247.85,270511.85,0.024,407
+MariWala,Khyber Pakhtunkhwa,Tier-3,270365.4,270365.4,0.024,408
+TandoKalanChak,Punjab,Tier-3,293458.0,270302.0,0.024,409
+PurMian,Sindh,Tier-3,281243.7,270258.7,0.024,410
+LalPindDera,Punjab,Tier-3,276361.8,269908.8,0.024,411
+RahBasti,Sindh,Tier-3,273820.45,269153.45,0.024,412
+MariChakGul,Punjab,Tier-3,300743.4,269024.4,0.024,413
+GarhNagarTando,Balochistan,Tier-3,277815.2,266862.2,0.023,414
+ThalPur,Punjab,Tier-3,279215.1,266434.1,0.023,415
+GolaBastiPind,Punjab,Tier-3,270414.05,266083.05,0.023,416
+GarhKila,Khyber Pakhtunkhwa,Tier-3,286004.5,265015.5,0.023,417
+NagarKotKila,Punjab,Tier-3,274009.2,264681.2,0.023,418
+BastiNagarTando,Punjab,Tier-3,276269.35,263435.35,0.023,419
+MianJand,Azad Jammu & Kashmir,Tier-3,281238.55,262456.55,0.023,420
+DeraPurJand,Balochistan,Tier-3,274671.05,261865.05,0.023,421
+AliRahDhok,Gilgit-Baltistan,Tier-3,265927.75,261688.75,0.023,422
+MariMian,Khyber Pakhtunkhwa,Tier-3,267811.65,261079.65,0.023,423
+ShahGarhDera,Punjab,Tier-3,264378.85,259721.85,0.023,424
+ChakSaraiDhok,Gilgit-Baltistan,Tier-3,275026.9,259705.9,0.023,425
+BhalPur,Punjab,Tier-3,288122.3,258851.3,0.023,426
+ThalKhurd,Khyber Pakhtunkhwa,Tier-3,265612.3,258671.3,0.023,427
+NauGola,Punjab,Tier-3,282777.3,258472.3,0.023,428
+DhokKalan,Balochistan,Tier-3,276394.0,258286.0,0.023,429
+GulAbadAli,Sindh,Tier-3,266826.35,258102.35,0.023,430
+PurMariKalan,Sindh,Tier-3,274723.15,257709.15,0.023,431
+GulKhurdAli,Punjab,Tier-3,257404.45,256828.45,0.023,432
+GarhShah,Sindh,Tier-3,271480.1,255207.1,0.022,433
+WalaDhok,Punjab,Tier-3,258322.95,255160.95,0.022,434
+GolaAbadNagar,Punjab,Tier-3,274591.1,253218.1,0.022,435
+WalaChakKhan,Punjab,Tier-3,264551.1,253010.1,0.022,436
+PindChakChak,Punjab,Tier-3,261170.8,250599.8,0.022,437
+WalaKot,Punjab,Tier-3,249391.05,248939.05,0.022,438
+AbadShahGul,Sindh,Tier-3,252803.45,248442.45,0.022,439
+KhanGarhKalan,Khyber Pakhtunkhwa,Tier-3,257268.35,247016.35,0.022,440
+SaraiLalBasti,Punjab,Tier-3,267348.75,246740.75,0.022,441
+DhokGarh,Sindh,Tier-3,251232.35,246167.35,0.022,442
+BhalGola,Punjab,Tier-3,247119.85,245471.85,0.022,443
+GarhLalThal,Sindh,Tier-3,251907.4,245088.4,0.021,444
+LalJand,Khyber Pakhtunkhwa,Tier-3,255130.6,244939.6,0.021,445
+MorDera,Sindh,Tier-3,246601.85,244165.85,0.021,446
+KhanShah,Punjab,Tier-3,245616.3,244158.3,0.021,447
+MariPindKalan,Balochistan,Tier-3,246321.25,242282.25,0.021,448
+ChakKalanNagar,Sindh,Tier-3,244322.95,241427.95,0.021,449
+JandGola,Khyber Pakhtunkhwa,Tier-3,250176.45,240304.45,0.021,450
+PurKhurdBhal,Punjab,Tier-3,240559.2,239655.2,0.021,451
+TandoKalan,Sindh,Tier-3,444408.15,239454.15,0.021,452
+ThalMianGola,Azad Jammu & Kashmir,Tier-3,250495.35,237366.35,0.021,453
+DhokPindChak,Sindh,Tier-3,243522.95,236503.95,0.021,454
+AbadJandDera,Sindh,Tier-3,253714.05,234827.05,0.021,455
+AbadRahJand,Sindh,Tier-3,252629.85,234572.85,0.021,456
+KalanGul,Balochistan,Tier-3,249489.55,233072.55,0.02,457
+DhokKotPur,Khyber Pakhtunkhwa,Tier-3,243460.45,231692.45,0.02,458
+JandBasti,Punjab,Tier-3,263393.55,231209.55,0.02,459
+NagarSaraiWala,Punjab,Tier-3,239872.9,229659.9,0.02,460
+ChakKhurdGul,Punjab,Tier-3,245974.45,229310.45,0.02,461
+PurPurPur,Sindh,Tier-3,230975.1,229011.1,0.02,462
+KhanWala,Balochistan,Tier-3,228669.8,228669.8,0.02,463
+GulGarhNagar,Punjab,Tier-3,230307.8,227530.8,0.02,464
+JandChakGarh,Punjab,Tier-3,231528.45,227162.45,0.02,465
+MorNagar,Khyber Pakhtunkhwa,Tier-3,229906.25,226864.25,0.02,466
+KhurdGulGul,Sindh,Tier-3,250904.1,226773.1,0.02,467
+KilaWalaNagar,Gilgit-Baltistan,Tier-3,237527.7,226389.7,0.02,468
+DhokGulMian,Punjab,Tier-3,233606.55,224571.55,0.02,469
+KalanTando,Balochistan,Tier-3,230400.3,224472.3,0.02,470
+khurddhok,Sindh,Tier-3,236725.95,223998.95,0.02,471
+NagarKila,Punjab,Tier-3,252970.6,223985.6,0.02,472
+PindDeraNau,Khyber Pakhtunkhwa,Tier-3,223856.9,223856.9,0.02,473
+ThalMian,Balochistan,Tier-3,244314.2,223824.2,0.02,474
+KhurdChak,Khyber Pakhtunkhwa,Tier-3,264910.95,222163.95,0.019,475
+PindThalJand,Punjab,Tier-3,245106.95,221148.95,0.019,476
+KhanKotRah,Khyber Pakhtunkhwa,Tier-3,227093.3,219028.3,0.019,477
+WalaSaraiBasti,Punjab,Tier-3,221032.5,218980.5,0.019,478
+KhanAli,Punjab,Tier-3,226137.25,217826.25,0.019,479
+GarhPurSarai,Punjab,Tier-3,227226.0,215787.0,0.019,480
+GarhAli,Punjab,Tier-3,219447.6,215575.6,0.019,481
+GarhAbadTando,Balochistan,Tier-3,218274.7,214986.7,0.019,482
+khurdpurtando,Punjab,Tier-3,224456.8,214705.8,0.019,483
+GulNagarTando,Punjab,Tier-3,219812.25,214269.25,0.019,484
+NauMari,Punjab,Tier-3,216580.65,212560.65,0.019,485
+GolaLalShah,Punjab,Tier-3,226137.35,212368.35,0.019,486
+ThalGarh,Balochistan,Tier-3,220658.45,210997.45,0.019,487
+DhokKhanMian,Punjab,Tier-3,214104.45,210952.45,0.019,488
+BhalChak,Punjab,Tier-3,226282.85,210723.3,0.018,489
+NauAli,Punjab,Tier-3,226878.35,209881.35,0.018,490
+TandoLal,Punjab,Tier-3,213239.65,209725.65,0.018,491
+KhanBhal,Sindh,Tier-3,217513.4,209094.4,0.018,492
+PindKalanPind,Punjab,Tier-3,221308.25,208068.25,0.018,493
+BhalChakJand,Balochistan,Tier-3,217817.35,207508.35,0.018,494
+MorAli,Khyber Pakhtunkhwa,Tier-3,220748.1,207036.1,0.018,495
+ThalKalan,Sindh,Tier-3,209875.8,206458.8,0.018,496
+KhurdKilaMor,Punjab,Tier-3,224671.0,205095.0,0.018,497
+AliKilaGul,Punjab,Tier-3,206976.75,204218.75,0.018,498
+AliDera,Punjab,Tier-3,209535.8,204006.8,0.018,499
+KotBhal,Khyber Pakhtunkhwa,Tier-3,212226.35,203821.35,0.018,500
+DhokKhurd,Punjab,Tier-3,216309.4,203297.7,0.018,501
+KilaKilaPind,Sindh,Tier-3,208213.85,202801.85,0.018,502
+RahKila,Balochistan,Tier-3,222796.9,202508.9,0.018,503
+NagarKhan,Punjab,Tier-3,221867.0,202293.0,0.018,504
+PINDKOTNAGAR,Punjab,Tier-3,235494.25,200637.25,0.018,505
+MariGul,Punjab,Tier-3,208693.6,199962.6,0.018,506
+TandoNagar,Punjab,Tier-3,207287.65,199357.65,0.017,507
+RahPindJand,Sindh,Tier-3,238973.55,198881.55,0.017,508
+ThalTando,Punjab,Tier-3,205870.4,198717.4,0.017,509
+WalaJand,Khyber Pakhtunkhwa,Tier-3,226837.7,197669.7,0.017,510
+DeraKalanKhan,Khyber Pakhtunkhwa,Tier-3,207133.2,196508.2,0.017,511
+WalaBastiChak,Punjab,Tier-3,297857.25,196465.25,0.017,512
+ChakTando,Gilgit-Baltistan,Tier-3,214350.65,194943.65,0.017,513
+AbadKhanKhan,Khyber Pakhtunkhwa,Tier-3,201230.85,194826.85,0.017,514
+KhanRahGarh,Punjab,Tier-3,201001.7,193304.7,0.017,515
+GulSarai,Khyber Pakhtunkhwa,Tier-3,196068.05,192728.05,0.017,516
+BhalDeraKhurd,Khyber Pakhtunkhwa,Tier-3,197784.55,192679.55,0.017,517
+BastiKalan,Sindh,Tier-3,191024.95,190629.95,0.017,518
+KalanThalWala,Punjab,Tier-3,191511.15,188969.15,0.017,519
+GulMari,Punjab,Tier-3,213573.2,188908.2,0.017,520
+MariRahBasti,Khyber Pakhtunkhwa,Tier-3,200053.05,188479.05,0.017,521
+DhokAbad,Khyber Pakhtunkhwa,Tier-3,193279.05,188431.05,0.017,522
+NauNauLal,Sindh,Tier-3,198731.2,187706.2,0.016,523
+MianKilaThal,Punjab,Tier-3,195460.6,187264.6,0.016,524
+DeraGola,Sindh,Tier-3,240907.6,186096.6,0.016,525
+JandKila,Punjab,Tier-3,195200.4,185890.4,0.016,526
+RahNagarGola,Gilgit-Baltistan,Tier-3,188952.65,185418.65,0.016,527
+ChakSaraiMari,Khyber Pakhtunkhwa,Tier-3,194646.25,185320.25,0.016,528
+BastiKhurdNagar,Sindh,Tier-3,187840.85,185179.85,0.016,529
+KotAliNau,Sindh,Tier-3,214519.55,184784.55,0.016,530
+MorMor,Punjab,Tier-3,186812.6,183480.6,0.016,531
+GarhNagar,Khyber Pakhtunkhwa,Tier-3,184893.9,182647.9,0.016,532
+KalanNau,Sindh,Tier-3,186849.5,182071.5,0.016,533
+NauAliGarh,Punjab,Tier-3,188390.0,182033.0,0.016,534
+GarhThalWala,Sindh,Tier-3,197560.0,180178.0,0.016,535
+BastiMianPur,Khyber Pakhtunkhwa,Tier-3,186080.8,179309.8,0.016,536
+MariGarhKot,Punjab,Tier-3,183266.1,179237.1,0.016,537
+MariBhalBasti,Punjab,Tier-3,182025.95,178601.95,0.016,538
+AbadRah,Punjab,Tier-3,194788.35,178533.35,0.016,539
+BastiJandKhurd,Punjab,Tier-3,189359.0,178425.0,0.016,540
+PindGola,Sindh,Tier-3,191546.4,178021.4,0.016,541
+BastiPur,Sindh,Tier-3,184424.75,177385.75,0.016,542
+MorLalNau,Punjab,Tier-3,182355.15,177037.15,0.016,543
+BastiShahRah,Punjab,Tier-3,189165.35,176705.35,0.015,544
+DhokBhalMian,Khyber Pakhtunkhwa,Tier-3,210522.8,175281.8,0.015,545
+KhanRahAli,Punjab,Tier-3,225610.15,174258.15,0.015,546
+GolaGulBasti,Khyber Pakhtunkhwa,Tier-3,175018.5,174130.5,0.015,547
+LalChakGola,Khyber Pakhtunkhwa,Tier-3,183116.45,173873.45,0.015,548
+DeraGolaGul,Balochistan,Tier-3,182813.65,172335.65,0.015,549
+KalanJandKot,Punjab,Tier-3,194429.5,172081.5,0.015,550
+MariMianKhurd,Punjab,Tier-3,198396.85,172029.85,0.015,551
+PurAbad,Balochistan,Tier-3,190920.4,171926.4,0.015,552
+NagarJand,Balochistan,Tier-3,174621.9,171795.9,0.015,553
+BastiNauKalan,Balochistan,Tier-3,180008.5,171357.5,0.015,554
+ShahTando,Punjab,Tier-3,182343.1,170632.1,0.015,555
+TandoNau,Khyber Pakhtunkhwa,Tier-3,175895.8,170295.8,0.015,556
+RahGul,Punjab,Tier-3,169116.75,169116.75,0.015,557
+KilaTandoDhok,Azad Jammu & Kashmir,Tier-3,170760.7,168155.7,0.015,558
+NauGolaRah,Sindh,Tier-3,165558.25,165558.25,0.015,559
+PurThalMian,Khyber Pakhtunkhwa,Tier-3,168446.5,164224.5,0.014,560
+AliPur,Punjab,Tier-3,165180.45,164069.45,0.014,561
+BhalWala,Balochistan,Tier-3,174381.9,163877.9,0.014,562
+DeraBastiPur,Punjab,Tier-3,164898.7,163564.7,0.014,563
+PindWalaJand,Punjab,Tier-3,173418.85,162910.85,0.014,564
+RahAliGul,Punjab,Tier-3,163593.85,162367.85,0.014,565
+AbadGulNagar,Sindh,Tier-3,162747.95,162271.95,0.014,566
+GulGul,Punjab,Tier-3,162090.05,162090.05,0.014,567
+GarhAbad,Sindh,Tier-3,165213.95,160671.95,0.014,568
+PindGulDera,Punjab,Tier-3,164328.5,160078.5,0.014,569
+DeraKalanJand,Punjab,Tier-3,162787.6,159668.6,0.014,570
+DhokLalBasti,Punjab,Tier-3,166662.5,159217.5,0.014,571
+RahLalRah,Punjab,Tier-3,165621.7,158673.7,0.014,572
+ChakSaraiBasti,Sindh,Tier-3,172493.55,157275.55,0.014,573
+WalaAli,Sindh,Tier-3,170819.05,155876.05,0.014,574
+TandoAbadKalan,Punjab,Tier-3,156986.4,155239.4,0.014,575
+ThalKhan,Punjab,Tier-3,179471.05,155030.05,0.014,576
+MariLal,Punjab,Tier-3,162412.4,153748.4,0.013,577
+KalanNagar,Sindh,Tier-3,155251.5,153215.5,0.013,578
+GarhRah,Sindh,Tier-3,160098.4,152743.4,0.013,579
+LalAbad,Azad Jammu & Kashmir,Tier-3,188112.95,150924.95,0.013,580
+ShahAliMor,Khyber Pakhtunkhwa,Tier-3,162295.4,150314.4,0.013,581
+RahKhurdJand,Sindh,Tier-3,168267.7,148714.7,0.013,582
+PurLal,Punjab,Tier-3,160887.8,148235.8,0.013,583
+DeraJand,Punjab,Tier-3,153040.45,146329.45,0.013,584
+ShahMorBhal,Punjab,Tier-3,151419.1,145913.1,0.013,585
+PindPindJand,Sindh,Tier-3,155200.3,144939.3,0.013,586
+ShahThalMor,Balochistan,Tier-3,157419.75,144516.75,0.013,587
+ThalNauSarai,Punjab,Tier-3,150946.25,142750.25,0.013,588
+KotKot,Punjab,Tier-3,149595.15,142028.15,0.012,589
+GolaRah,Punjab,Tier-3,144829.05,141567.05,0.012,590
+NauNagarKot,Balochistan,Tier-3,145313.2,139804.2,0.012,591
+KhurdBhal,Sindh,Tier-3,163137.0,139722.0,0.012,592
+WalaThal,Khyber Pakhtunkhwa,Tier-3,142772.5,139476.5,0.012,593
+NauGarhThal,Punjab,Tier-3,138073.7,138073.7,0.012,594
+AliGul,Punjab,Tier-3,149386.85,136326.85,0.012,595
+GulGolaKhurd,Punjab,Tier-3,155455.15,135601.15,0.012,596
+DhokTando,Sindh,Tier-3,139895.15,135585.15,0.012,597
+KilaNau,Khyber Pakhtunkhwa,Tier-3,138677.55,131416.55,0.012,598
+MariKalan,Sindh,Tier-3,131763.75,131305.75,0.012,599
+KalanKhurdKalan,Azad Jammu & Kashmir,Tier-3,152738.3,130876.3,0.011,600
+SaraiTandoKot,Punjab,Tier-3,135705.55,130424.55,0.011,601
+ThalKhurdMari,Khyber Pakhtunkhwa,Tier-3,143547.65,130026.65,0.011,602
+GulTandoDhok,Khyber Pakhtunkhwa,Tier-3,129829.55,129829.55,0.011,603
+dhokpindmor,Sindh,Tier-3,138159.1,127391.1,0.011,604
+PurKhan,Punjab,Tier-3,133498.4,127176.4,0.011,605
+GarhMari,Sindh,Tier-3,136761.0,125271.0,0.011,606
+KalanDeraKhurd,Punjab,Tier-3,125070.25,123562.25,0.011,607
+ShahBastiGola,Balochistan,Tier-3,131053.25,122035.25,0.011,608
+NauPurKalan,Khyber Pakhtunkhwa,Tier-3,122067.15,119082.15,0.01,609
+JandJandBhal,Punjab,Tier-3,120849.9,118402.9,0.01,610
+AliChakAli,Khyber Pakhtunkhwa,Tier-3,130646.35,117621.35,0.01,611
+KhurdKalanThal,Balochistan,Tier-3,119143.05,116732.05,0.01,612
+SaraiGola,Punjab,Tier-3,122806.8,116714.8,0.01,613
+PindDera,Punjab,Tier-3,121068.35,116699.35,0.01,614
+WalaChak,Punjab,Tier-3,128195.05,114659.05,0.01,615
+NauPindGarh,Sindh,Tier-3,120528.75,114505.75,0.01,616
+MorKhanMor,Sindh,Tier-3,111305.0,110645.0,0.01,617
+ShahRah,Punjab,Tier-3,118335.45,109148.45,0.01,618
+MariChakWala,Punjab,Tier-3,114240.25,108925.25,0.01,619
+NagarPurMari,Punjab,Tier-3,112541.55,108229.55,0.009,620
+AliChakNau,Punjab,Tier-3,108779.3,107938.3,0.009,621
+MianThal,Sindh,Tier-3,125308.5,107343.5,0.009,622
+KhanShahAli,Sindh,Tier-3,102405.25,102405.25,0.009,623
+AbadPurPur,Gilgit-Baltistan,Tier-3,103890.7,97798.7,0.009,624
+MianAliJand,Sindh,Tier-3,99447.65,96335.65,0.008,625
+RahDhokDera,Sindh,Tier-3,143271.6,94094.6,0.008,626
+MorMianGola,Punjab,Tier-3,95594.1,92783.1,0.008,627
+DeraRah,Punjab,Tier-3,100686.5,92667.5,0.008,628
+GulKhurdMari,Balochistan,Tier-3,91766.5,90067.5,0.008,629
+NauBasti,Balochistan,Tier-3,93208.65,88801.65,0.008,630
+KalanKotKhurd,Khyber Pakhtunkhwa,Tier-3,91184.8,88522.8,0.008,631
+GarhThalGola,Khyber Pakhtunkhwa,Tier-3,92543.9,86428.9,0.008,632
+BastiAbad,Sindh,Tier-3,101975.25,85039.25,0.007,633
+MariKhurdGarh,Khyber Pakhtunkhwa,Tier-3,95738.1,84120.1,0.007,634
+JandRahBasti,Punjab,Tier-3,84387.5,83003.5,0.007,635
+GulKilaPind,Sindh,Tier-3,82618.85,82335.85,0.007,636
+BhalMariAli,Punjab,Tier-3,85387.5,80202.5,0.007,637
+LalMari,Punjab,Tier-3,80072.55,79117.55,0.007,638
+WalaBastiPind,Punjab,Tier-3,78051.8,71869.8,0.006,639
+NauThalMor,Sindh,Tier-3,67485.9,67485.9,0.006,640
+KotKalanDhok,Punjab,Tier-3,66292.2,64613.2,0.006,641
+TandoSarai,Sindh,Tier-3,73301.4,63956.4,0.006,642
+KilaBhal,Punjab,Tier-3,63141.1,62135.1,0.005,643
+AliKalan,Khyber Pakhtunkhwa,Tier-3,72523.85,61926.85,0.005,644
+TandoLalLal,Sindh,Tier-3,75956.4,61813.4,0.005,645
+JandRahRah,Sindh,Tier-3,56409.85,55012.85,0.005,646
+RahGola,Sindh,Tier-3,55892.8,54236.8,0.005,647
+MariBhalChak,Punjab,Tier-3,56799.1,49925.1,0.004,648
+GarhGulPind,Punjab,Tier-3,55050.75,41982.75,0.004,649
+NagarChak,Khyber Pakhtunkhwa,Tier-3,17593.5,17593.5,0.002,650

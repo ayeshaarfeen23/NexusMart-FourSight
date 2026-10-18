@@ -1,0 +1,12 @@
+region,province,orders,avg_delivery_days,on_time_pct,cancel_rate_pct,return_rate_pct
+Central,Punjab,78537,4.32,75.56,9.3,5.22
+Central,,78537,4.32,75.56,9.3,5.22
+North,Gilgit-Baltistan,1265,5.93,54.74,12.73,5.43
+North,Azad Jammu & Kashmir,1475,5.73,53.91,11.39,5.99
+North,Khyber Pakhtunkhwa,16486,4.71,69.11,10.01,5.37
+North,,30580,4.33,75.67,9.23,5.16
+North,Islamabad Capital Territory,11354,3.44,89.85,7.43,4.74
+South,Balochistan,5886,5.35,59.02,10.58,5.37
+South,,50476,4.2,77.42,8.83,5.04
+South,Sindh,44590,4.05,79.76,8.6,5.0
+,,159593,4.28,76.17,9.14,5.15

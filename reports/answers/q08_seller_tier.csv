@@ -1,0 +1,5 @@
+seller_tier,sellers,net_revenue,revenue_per_seller,return_rate_pct,on_time_pct,avg_delivery_days,cancel_rate_pct
+Gold,40,278909294.1,6972732,5.34,76.2,4.29,9.29
+Unknown,21,101254470.84,4821641,4.14,76.44,4.28,9.19
+Silver,99,364140490.43,3678187,5.29,76.23,4.28,9.11
+Bronze,247,398076385.0,1611645,4.94,76.04,4.28,9.1

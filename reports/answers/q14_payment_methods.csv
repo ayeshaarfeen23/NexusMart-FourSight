@@ -1,0 +1,6 @@
+payment_method,orders,order_share_pct,cancel_rate_pct,return_rate_pct,aov
+COD,83307,52.1,13.89,5.14,8269
+Card,25716,16.08,3.87,5.32,8367
+JazzCash,20666,12.92,4.12,5.02,8345
+EasyPaisa,19288,12.06,3.91,5.19,8063
+Bank Transfer,10922,6.83,3.96,4.96,8120

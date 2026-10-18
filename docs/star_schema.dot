@@ -1,0 +1,62 @@
+digraph star {
+  graph [rankdir=LR, bgcolor="white", pad=0.3, nodesep=0.35, ranksep=0.9, fontname="Helvetica"];
+  node  [shape=plaintext, fontname="Helvetica", fontsize=10];
+  edge  [color="#555555", arrowhead=none, arrowtail=crow, dir=both, penwidth=1.2];
+
+  fact [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="3" COLOR="#b71c1c">
+    <TR><TD BGCOLOR="#b71c1c"><FONT COLOR="white"><B>dw.fact_sales</B>  (grain: order line)</FONT></TD></TR>
+    <TR><TD ALIGN="LEFT">PK sales_key</TD></TR>
+    <TR><TD ALIGN="LEFT">FK date_key, return_date_key → dim_date</TD></TR>
+    <TR><TD ALIGN="LEFT">FK customer_key, product_key, seller_key, location_key</TD></TR>
+    <TR><TD ALIGN="LEFT">order_id, order_item_id (unique)</TD></TR>
+    <TR><TD ALIGN="LEFT">quantity, unit_price, gross_amount, discount_pct, discount_amount, net_amount</TD></TR>
+    <TR><TD ALIGN="LEFT">unit_cost, cost_amount, shipping_fee (allocated)</TD></TR>
+    <TR><TD ALIGN="LEFT">shipping_days, delivery_days, is_on_time, courier</TD></TR>
+    <TR><TD ALIGN="LEFT">is_cancelled, is_in_transit, is_delivered_line</TD></TR>
+    <TR><TD ALIGN="LEFT">is_returned, returned_amount, return_reason, return_status</TD></TR>
+    <TR><TD ALIGN="LEFT">order_status, payment_method, channel, discount_code</TD></TR>
+    <TR><TD ALIGN="LEFT">is_first_order, is_repaired</TD></TR></TABLE>>];
+
+  date [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="3" COLOR="#37474f">
+    <TR><TD BGCOLOR="#37474f"><FONT COLOR="white"><B>dw.dim_date</B></FONT></TD></TR>
+    <TR><TD ALIGN="LEFT">PK date_key (yyyymmdd; 0 = Unknown)</TD></TR>
+    <TR><TD ALIGN="LEFT">full_date, day_name, week, month, quarter, year</TD></TR>
+    <TR><TD ALIGN="LEFT">is_weekend, is_ramadan, is_eid_ul_fitr, is_eid_ul_adha</TD></TR>
+    <TR><TD ALIGN="LEFT">is_independence_day, is_11_11, is_black_friday, event_name</TD></TR></TABLE>>];
+
+  cust [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="3" COLOR="#37474f">
+    <TR><TD BGCOLOR="#37474f"><FONT COLOR="white"><B>dw.dim_customer</B>  (SCD1)</FONT></TD></TR>
+    <TR><TD ALIGN="LEFT">PK customer_key (-1 = Unknown)</TD></TR>
+    <TR><TD ALIGN="LEFT">customer_id (master), name, email, phone, gender</TD></TR>
+    <TR><TD ALIGN="LEFT">birth_year, age_band, registration_date, first_order_date</TD></TR>
+    <TR><TD ALIGN="LEFT">city, province, region, population_tier (denormalised)</TD></TR>
+    <TR><TD ALIGN="LEFT">rfm_r/f/m, rfm_segment</TD></TR></TABLE>>];
+
+  prod [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="3" COLOR="#37474f">
+    <TR><TD BGCOLOR="#37474f"><FONT COLOR="white"><B>dw.dim_product</B></FONT></TD></TR>
+    <TR><TD ALIGN="LEFT">PK product_key (-1 = Unknown)</TD></TR>
+    <TR><TD ALIGN="LEFT">product_id (master), product_name</TD></TR>
+    <TR><TD ALIGN="LEFT">category (12 standard), sub_category, brand</TD></TR>
+    <TR><TD ALIGN="LEFT">list_price, cost_price, weight_kg, price_band</TD></TR></TABLE>>];
+
+  sell [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="3" COLOR="#37474f">
+    <TR><TD BGCOLOR="#37474f"><FONT COLOR="white"><B>dw.dim_seller</B></FONT></TD></TR>
+    <TR><TD ALIGN="LEFT">PK seller_key (-1 = Unknown)</TD></TR>
+    <TR><TD ALIGN="LEFT">seller_id, seller_name, join_date, seller_tier, rating</TD></TR>
+    <TR><TD ALIGN="LEFT">city, province, region, population_tier (denormalised)</TD></TR></TABLE>>];
+
+  loc [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="3" COLOR="#37474f">
+    <TR><TD BGCOLOR="#37474f"><FONT COLOR="white"><B>dw.dim_location</B>  (ship-to city)</FONT></TD></TR>
+    <TR><TD ALIGN="LEFT">PK location_key (-1 = Unknown)</TD></TR>
+    <TR><TD ALIGN="LEFT">city_id, city, province, region, population_tier</TD></TR>
+    <TR><TD ALIGN="LEFT">latitude, longitude</TD></TR></TABLE>>];
+
+  date -> fact [dir=forward, arrowhead=crow, label=" 1 : N  ", fontsize=9];
+  cust -> fact [dir=forward, arrowhead=crow, label=" 1 : N  ", fontsize=9];
+  fact -> prod [dir=both, arrowhead=none, arrowtail=crow, label=" N : 1", fontsize=9];
+  fact -> sell [dir=both, arrowhead=none, arrowtail=crow, label=" N : 1", fontsize=9];
+  fact -> loc  [dir=both, arrowhead=none, arrowtail=crow, label=" N : 1", fontsize=9];
+  {rank=same; date; cust;}
+  {rank=same; prod; sell; loc;}
+  labelloc="t"; label=<<B>NexusMart warehouse – star schema (PostgreSQL, schema dw)</B><BR/><FONT POINT-SIZE="9">One fact, five dimensions; dimensions are not linked to each other. Every dimension has an Unknown member.</FONT>>;
+}

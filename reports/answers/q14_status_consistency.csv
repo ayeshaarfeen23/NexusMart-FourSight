@@ -1,0 +1,21 @@
+payment_method,order_status,orders,payment_says_cancelled,payment_says_paid
+Bank Transfer,Cancelled,432,0,0
+Bank Transfer,Delivered,10179,0,10179
+Bank Transfer,In Transit,101,0,101
+Bank Transfer,Returned,210,0,210
+COD,Cancelled,11568,11568,0
+COD,Delivered,69654,0,69654
+COD,In Transit,679,0,0
+COD,Returned,1406,0,1406
+Card,Cancelled,996,2,0
+Card,Delivered,24005,0,24005
+Card,In Transit,204,0,204
+Card,Returned,511,0,511
+EasyPaisa,Cancelled,754,0,0
+EasyPaisa,Delivered,18009,0,18009
+EasyPaisa,In Transit,172,0,172
+EasyPaisa,Returned,353,0,353
+JazzCash,Cancelled,852,0,0
+JazzCash,Delivered,19238,0,19238
+JazzCash,In Transit,197,0,197
+JazzCash,Returned,379,0,379

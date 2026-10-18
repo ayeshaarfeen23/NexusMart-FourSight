@@ -1,0 +1,29 @@
+{
+  "name": "NexusMart Datathon",
+  "dataColors": ["#C62828", "#37474F", "#EF9A9A", "#78909C", "#8D6E63", "#FFB300", "#26A69A", "#5C6BC0", "#BDBDBD", "#AD1457", "#00838F", "#6D4C41"],
+  "good": "#2E7D32",
+  "neutral": "#FFB300",
+  "bad": "#C62828",
+  "maximum": "#C62828",
+  "center": "#FFFFFF",
+  "minimum": "#ECEFF1",
+  "background": "#FFFFFF",
+  "foreground": "#263238",
+  "tableAccent": "#C62828",
+  "textClasses": {
+    "title": { "fontFace": "Segoe UI Semibold", "fontSize": 13, "color": "#263238" },
+    "header": { "fontFace": "Segoe UI Semibold", "fontSize": 11, "color": "#263238" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 10, "color": "#455A64" },
+    "callout": { "fontFace": "Segoe UI Semibold", "fontSize": 26, "color": "#263238" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "border": [{ "show": true, "color": { "solid": { "color": "#ECEFF1" } }, "radius": 6 }],
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } } }],
+        "dropShadow": [{ "show": false }]
+      }
+    },
+    "page": { "*": { "background": [{ "color": { "solid": { "color": "#F5F6F7" } }, "transparency": 0 }] } }
+  }
+}

@@ -1,0 +1,9 @@
+rfm_segment,customers,customer_share_pct,net_revenue,revenue_share_pct,revenue_per_customer
+Champions,6298,19.47,624749183.4,54.8,99198
+Loyal Customers,7212,22.29,252775725.81,22.17,35049
+Hibernating,9459,29.24,99311455.02,8.71,10499
+At Risk,3072,9.5,97622493.0,8.56,31778
+Need Attention,2599,8.03,31441701.05,2.76,12098
+Potential Loyalists,1541,4.76,23500919.14,2.06,15250
+New Customers,1337,4.13,10674645.6,0.94,7984
+No Purchases,831,2.57,0.0,0.0,0
